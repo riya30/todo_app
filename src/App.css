@@ -1,0 +1,72 @@
+.App {
+}
+
+.App-header {
+  background-color: #282c34;
+  height: auto;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0;
+  padding: 5px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  justify-content: center;
+  max-width: 100%;
+  padding: 20px;
+}
+
+.strickedOff {
+  text-decoration: line-through;
+}
+
+.loader {
+  height: 50px;
+  width: 50px;
+}
+
+.todoListContainer, .todoListContainer ul {
+  width: 100%;
+  padding: 0;
+}
+
+
+.todoListContainer ul li {
+  list-style-type: none;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  align-items: center;
+
+}
+
+.todoDesc {
+
+}
+
+.todoDueDate {
+  border: 1px solid black;
+  width: 95px;
+  text-align: center;
+  padding: 2px;
+}
+
+.statusOverdue {
+  background-color: #FECCCC;
+}
+
+.statusCompleted {
+  background-color: #CDFFCD;
+}
+
+input[type='checkbox'] {
+  vertical-align: middle;
+}
+
+.statusUpcoming {
+background-color: #F3F3F3;
+}
